@@ -8,12 +8,12 @@ int main (){
   hour=minute=second=0;
   while(1){
     // clear output screen
-    system("clear");
+    system("cls"); // system("cls") is used to clear the output screen
     // print time in HH:MM:SS format
     printf("%02d:%02d:%02d\n", hour, minute, second); // %02d is used to print 2 digits
     //clear output buffer in gcc 
 
-    fflush(stdout);
+    fflush(stdout); //fflush(stdout); ensures the output is immediately shown.
     second++;// increment second
     // if second reaches 60, increment minute and reset second
     if(second==60){
@@ -25,7 +25,7 @@ int main (){
       minute=0;
     }
     if(hour==24){
-      hour==0;
+      hour=0;
       minute=0;
       second=0;
     }
