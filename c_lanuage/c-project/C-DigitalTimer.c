@@ -13,7 +13,7 @@ int main (){
     printf("%02d:%02d:%02d\n", hour, minute, second); // %02d is used to print 2 digits
     //clear output buffer in gcc 
 
-    fflush(stdout); //fflush(stdout); ensures the output is immediately shown.
+    fflush(stdout);  //fflush(stdout); ensures the output is immediately shown.
     second++;// increment second
     // if second reaches 60, increment minute and reset second
     if(second==60){
