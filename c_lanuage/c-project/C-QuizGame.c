@@ -7,4 +7,12 @@ int maiin(){
   int point01, point02, point03, point04, point05, point06, point07, point08, point09, point010;
   int total1, total2, total3;
 
+  printf(" Wellcome to The Game\n\n");
+  printf("> Press 7 to Start The Game\n");
+  printf("Press 0 to Quit The Game\n");
+
+  scanf("%d", &i);
+
+  
+
 }
