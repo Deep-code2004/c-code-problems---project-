@@ -13,6 +13,17 @@ int maiin(){
 
   scanf("%d", &i);
 
-  
+  if(i==7)
+  {
+    printf("The Game Has Started \n\n");
+  }
+  else if(i==0)
+  {
+    printf("The Game Has Ended\n\n");
+  }
+  else
+  {
+     printf("Invalid\n\n");
+  }
 
 }
